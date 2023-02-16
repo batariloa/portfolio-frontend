@@ -7,6 +7,7 @@ import Kotlin from "../assets/kotlin.png";
 import Github from "../assets/github.png";
 import MongoDB from "../assets/mongo.png";
 import Postgres from "../assets/postgres.png";
+import DockerCompose from "../assets/docker-compose.png";
 
 const Skills = () => {
   return (
@@ -39,8 +40,12 @@ const Skills = () => {
           </div>
 
           <div className="skill-container">
-            <img alt="" className="skill-container-image" src={Kotlin}></img>
-            <p className="my-4">Kotlin Android</p>
+            <img
+              alt=""
+              className="skill-container-image"
+              src={DockerCompose}
+            ></img>
+            <p className="my-4">Docker Compose</p>
           </div>
           <div className="skill-container">
             <img alt="" className="skill-container-image" src={Github}></img>
