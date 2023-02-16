@@ -12,9 +12,12 @@ export const useGithubRepositories = (username) => {
       setError(null);
 
       try {
-        const response = await fetch(`http://172.17.0.1:3200/api`, {
-          headers: {},
-        });
+        const response = await fetch(
+          `https://portfolio-express-proxy.herokuapp.com/api`,
+          {
+            headers: {},
+          }
+        );
         const data = await response.json();
         console.log("sorted data", process.env.REACT_APP_GITHUB_KEY);
 
