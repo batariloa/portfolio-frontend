@@ -44,7 +44,7 @@
     }
 
     .skill-container-image{
-        @apply mx-auto my-1 max-h-[60%]
+        @apply mx-auto my-1 h-[4rem]
     }
 
     .button-bordered{
