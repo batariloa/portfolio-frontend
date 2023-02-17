@@ -21,9 +21,9 @@ export function Home() {
           solutions and take pride in delivering high-quality work. I'm
           committed to continuously learning and staying up-to-date with the
           latest technologies to ensure that I can provide the best possible
-          solutions for each project. If you're looking for a dedicated
-          developer to bring your web project to life, please check out my
-          portfolio for examples of my past work.
+          solutions for each project. If you're looking for a developer to bring
+          your web project to life, please check out my portfolio for examples
+          of my past work.
         </p>
         <div>
           <Link to="work" offset={50} smooth={true} duration={600}>
