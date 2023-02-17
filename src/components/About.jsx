@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="sm:text-right  max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap- sm:gap-8">
           {/*This is row 2 col 1 */}
-          <div className="sm:text-right sm:text-4xl text-4xl font-bold">
+          <div className="sm:text-right sm:text-4xl text-2xl font-bold">
             <p>Hello there, nice to meet you!</p>
           </div>
           {/*This is row 2 col 2 */}
