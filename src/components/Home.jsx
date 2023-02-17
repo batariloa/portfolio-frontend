@@ -15,9 +15,9 @@ export function Home() {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-gray-300 max-w-[700px] mt-3 mb-3">
-          I'm a full-stack developer with a passion for building web solutions
-          that solve real-world problems. With experience in both backend and
-          frontend development, I take pride in my ability to work
+          I'm a software engineering student, and a junior developer dedicated
+          to building efficient web solutions. With experience in both backend
+          and frontend development, I take pride in my ability to work
           collaboratively and bring innovative ideas to the table. I'm committed
           to continuous learning and keeping up-to-date with the latest
           technologies to ensure the highest quality work. If you're looking for
