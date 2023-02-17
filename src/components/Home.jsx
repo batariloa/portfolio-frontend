@@ -17,11 +17,13 @@ export function Home() {
         <p className="text-gray-300 max-w-[700px] mt-3 mb-3">
           I'm a software engineering student and junior developer skilled in
           building efficient web solutions. With experience in both backend and
-          frontend development, I bring innovative ideas and collaborate well
-          with others. I'm committed to continuous learning and staying
-          up-to-date with the latest technologies to deliver high-quality work.
-          Check out my portfolio for examples of my past work if you're seeking
-          a dedicated developer to bring your web project to life.
+          frontend development, I'm passionate about delivering innovative
+          solutions and take pride in delivering high-quality work. I'm
+          committed to continuously learning and staying up-to-date with the
+          latest technologies to ensure that I can provide the best possible
+          solutions for each project. If you're looking for a dedicated
+          developer to bring your web project to life, please check out my
+          portfolio for examples of my past work.
         </p>
         <div>
           <Link to="work" offset={50} smooth={true} duration={600}>
