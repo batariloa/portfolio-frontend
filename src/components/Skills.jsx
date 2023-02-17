@@ -8,6 +8,8 @@ import Github from "../assets/github.png";
 import MongoDB from "../assets/mongo.png";
 import Postgres from "../assets/postgres.png";
 import DockerCompose from "../assets/docker-compose.png";
+import SpringWebflux from "../assets/spring_webflux_logo.png";
+import Express from "../assets/node-express.png";
 
 const Skills = () => {
   return (
@@ -25,6 +27,7 @@ const Skills = () => {
             <img alt="" className="skill-container-image" src={Node}></img>
             <p className="my-4">Node.js</p>
           </div>
+
           <div className="skill-container">
             <img alt="" className="skill-container-image" src={REACT_IMG}></img>
             <p className="my-4">React.js</p>
@@ -32,8 +35,9 @@ const Skills = () => {
 
           <div className="skill-container">
             <img alt="" className="skill-container-image" src={Spring}></img>
-            <p className="my-4">Spring Boot</p>
+            <p className="my-4">Spring</p>
           </div>
+
           <div className="skill-container">
             <img alt="" className="skill-container-image" src={Docker}></img>
             <p className="my-4">Docker</p>

@@ -26,7 +26,7 @@ const About = () => {
               deliver high-quality solutions with attention to detail. As a
               lifelong learner, I enjoy exploring new frameworks and programming
               languages to ensure I can provide the best possible solution for
-              each unique project.{" "}
+              each unique project.
             </p>
             <p className="my-3">
               My love for programming began early on, and I have since dedicated
@@ -36,7 +36,6 @@ const About = () => {
               possible solution for each project.
             </p>
             <p className="my-3">
-              {" "}
               My portfolio showcases some of the solutions I've developed, and
               I'm always excited to collaborate with others and take on new
               challenges. If you have any questions or are interested in working

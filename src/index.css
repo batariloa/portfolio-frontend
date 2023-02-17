@@ -36,15 +36,15 @@
     }
 
     .skill-container{
-        @apply shadow-md w-[100%] pt-2 shadow-[#040c16] hover:scale-110 duration-300
+        @apply shadow-md  pt-2 shadow-[#040c16] hover:scale-110 duration-300 
     }
 
     .screen-container{
-        @apply bg-bg-color-1 text-text-color h-screen
+        @apply bg-bg-color-1 text-text-color h-screen 
     }
 
     .skill-container-image{
-        @apply w-[4rem] md:w-[6rem] mx-auto my-1
+        @apply w-[4rem] md:w-[6rem] mx-auto my-1 max-h-[70%]
     }
 
     .button-bordered{
