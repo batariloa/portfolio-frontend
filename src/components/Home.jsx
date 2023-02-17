@@ -15,14 +15,13 @@ export function Home() {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-gray-300 max-w-[700px] mt-3 mb-3">
-          I'm a software engineering student, and a junior developer dedicated
-          to building efficient web solutions. With experience in both backend
-          and frontend development, I take pride in my ability to work
-          collaboratively and bring innovative ideas to the table. I'm committed
-          to continuous learning and keeping up-to-date with the latest
-          technologies to ensure the highest quality work. If you're looking for
-          a dedicated developer to help bring your web project to life, please
-          take a look at my portfolio to see some of my past work."
+          I'm a software engineering student and junior developer skilled in
+          building efficient web solutions. With experience in both backend and
+          frontend development, I bring innovative ideas and collaborate well
+          with others. I'm committed to continuous learning and staying
+          up-to-date with the latest technologies to deliver high-quality work.
+          Check out my portfolio for examples of my past work if you're seeking
+          a dedicated developer to bring your web project to life.
         </p>
         <div>
           <Link to="work" offset={50} smooth={true} duration={600}>
