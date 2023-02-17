@@ -36,7 +36,7 @@
     }
 
     .skill-container{
-        @apply shadow-md  pt-2 shadow-[#040c16] hover:scale-110 duration-300 
+        @apply shadow-md  pt-2 shadow-[#040c16] hover:scale-110 duration-300 sm:h-[10rem] h-[8rem] 
     }
 
     .screen-container{
@@ -44,7 +44,7 @@
     }
 
     .skill-container-image{
-        @apply w-[4rem] md:w-[6rem] mx-auto my-1 max-h-[70%]
+        @apply mx-auto my-1 max-h-[60%]
     }
 
     .button-bordered{
