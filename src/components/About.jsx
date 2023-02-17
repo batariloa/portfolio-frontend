@@ -23,15 +23,16 @@ const About = () => {
           {/*This is row 2 col 2 */}
           <div>
             <p>
-              As a full-stack developer, I'm enthusiastic about using my skills
-              and knowledge to turn innovative ideas into reality. Technology is
-              my passion, and I enjoy exploring new frameworks and programming
-              languages to discover the best solutions for each project. I take
-              pride in delivering high-quality work and paying close attention
-              to every detail. You can check out my portfolio to see some of the
-              projects I've worked on. If you have any questions or would like
-              to explore the possibility of collaborating, please don't hesitate
-              to reach out.
+              As a full-stack developer, I am committed to delivering practical
+              and efficient web solutions. I take pride in my work and strive to
+              deliver high-quality solutions with attention to detail. As a
+              lifelong learner, I enjoy exploring new frameworks and programming
+              languages to ensure I can provide the best possible solution for
+              each unique project. My portfolio showcases some of the solutions
+              I've developed, and I'm always excited to collaborate with others
+              and take on new challenges. If you have any questions or are
+              interested in working together, please don't hesitate to contact
+              me.
             </p>
           </div>
         </div>
