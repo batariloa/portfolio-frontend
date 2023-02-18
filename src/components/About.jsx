@@ -31,15 +31,11 @@ const About = () => {
             <p className="my-3">
               My love for programming began early on, and I have since dedicated
               myself to honing my skills and keeping up with the latest industry
-              advancements. I enjoy working with cutting-edge technologies and
-              exploring new frameworks, always striving to deliver the best
-              possible solution for each project.
-            </p>
-            <p className="my-3">
-              My portfolio showcases some of the solutions I've developed, and
-              I'm always excited to collaborate with others and take on new
-              challenges. If you have any questions or are interested in working
-              together, please don't hesitate to contact me.
+              advancements. My portfolio showcases some of the solutions I've
+              developed, and I'm always excited to collaborate with others and
+              take on new challenges. If you have any questions or are
+              interested in working together, please don't hesitate to contact
+              me.
             </p>
           </div>
         </div>
