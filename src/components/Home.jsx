@@ -18,12 +18,10 @@ export function Home() {
           I'm a software engineering student and junior developer skilled in
           building efficient web solutions. With experience in both backend and
           frontend development, I'm passionate about delivering innovative
-          solutions and take pride in delivering high-quality work. I'm
-          committed to continuously learning and staying up-to-date with the
-          latest technologies to ensure that I can provide the best possible
-          solutions for each project. If you're looking for a developer to bring
-          your web project to life, please check out my portfolio for examples
-          of my past work.
+          solutions and take pride in delivering high-quality work. If you are
+          looking for a developer to help bring your web project to life, I
+          would be thrilled to have the opportunity to discuss your needs with
+          you. Please take a look around and don't hesitate to reach out to me.
         </p>
         <div>
           <Link to="work" offset={50} smooth={true} duration={600}>
