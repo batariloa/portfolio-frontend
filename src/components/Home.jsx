@@ -21,7 +21,7 @@ export function Home() {
           solutions and take pride in delivering high-quality work. If you are
           looking for a developer to help bring your web project to life, I
           would be thrilled to have the opportunity to discuss your needs with
-          you. Please take a look around and don't hesitate to reach out to me.
+          you. Please take a look around and don't hesitate to reach out.
         </p>
         <div>
           <Link to="work" offset={50} smooth={true} duration={600}>
