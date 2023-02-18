@@ -23,10 +23,11 @@ const About = () => {
             <p className="my-3">
               As a full-stack developer, I am committed to delivering practical
               and efficient web solutions. I take pride in my work and strive to
-              deliver high-quality solutions with attention to detail. As a
-              lifelong learner, I enjoy exploring new frameworks and programming
-              languages to ensure I can provide the best possible solution for
-              each unique project.
+              deliver high-quality solutions with attention to detail. I enjoy
+              exploring new programming languages and frameworks to keep myself
+              updated with the latest developments in the industry. This enables
+              me to provide the most effective solutions for each unique
+              project.
             </p>
             <p className="my-3">
               My love for programming began early on, and I have since dedicated
