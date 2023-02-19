@@ -38,6 +38,7 @@ const About = () => {
               interested in working together, please don't hesitate to contact
               me.
             </p>
+            <p className="my-3">Let's create something amazing together.</p>
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import env from "react-dotenv";
 
 export const useGithubRepositories = (username) => {
   const [repositories, setRepositories] = useState([]);
@@ -19,14 +18,8 @@ export const useGithubRepositories = (username) => {
           }
         );
         const data = await response.json();
-        console.log("sorted data", process.env.REACT_APP_GITHUB_KEY);
 
-        console.log("sorted data", data);
-
-        const filteredData = data
-          .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
-          .slice(0, 6);
-        setRepositories(filteredData);
+        setRepositories(data);
       } catch (err) {
         console.log("error is", err);
         setError(err);
