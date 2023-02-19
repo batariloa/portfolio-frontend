@@ -3,11 +3,14 @@ import Logo from "../assets/ab_logo.png";
 import { FaBars, FaTimes, FaGithub, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { useState, useEffect } from "react";
-
+import { BsExclamationTriangleFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-
 export function Navbar() {
   const [nav, setNav] = useState(false);
+  const [offline, setOffline] = useState(false);
+  useEffect(() => {
+    if (!navigator.onLine) setOffline(true);
+  }, []);
 
   const handleClick = () => setNav((prev) => !prev);
 
@@ -27,7 +30,6 @@ export function Navbar() {
       <div>
         <img src={Logo} alt="logo" style={{ width: "60px" }}></img>
       </div>
-
       {/* Menu */}
       <div className="hidden md:flex text-xl">
         <ul className="hidden md:flex ">
@@ -61,11 +63,19 @@ export function Navbar() {
               Socials
             </Link>
           </li>
+
+          {/* Offline mode warning for desktop */}
+          {offline && (
+            <li className="flex border-2 bg-red-300 text-white items-center  rounded-sm ml-4">
+              Offline mode!
+              <span className="">
+                <BsExclamationTriangleFill className="ml-2  text-red-500" />
+              </span>
+            </li>
+          )}
         </ul>
-      </div>
-
+      </div>{" "}
       {/* Mobile menu */}
-
       <div>
         <ul
           className={
@@ -121,14 +131,25 @@ export function Navbar() {
           </li>
         </ul>
       </div>
+      {/* Offline mode warning for mobile */}
+      {offline && (
+        <span className="md:hidden flex border-2 bg-accent-color-1 text-white items-center p-1 text-center rounded-sm mx-auto ">
+          Offline mode!
+          <span className="">
+            <BsExclamationTriangleFill className="ml-2  text-red-400" />
+          </span>
+        </span>
+      )}
       {/* Hamburger */}
-
-      <div onClick={handleClick} className="md:hidden z-10 ">
-        {!nav ? <FaBars size={30}></FaBars> : <FaTimes size={30}></FaTimes>}
+      <div
+        onClick={handleClick}
+        className="md:hidden z-10 flex items-center justify-center"
+      >
+        <span>
+          {!nav ? <FaBars size={30}></FaBars> : <FaTimes size={30}></FaTimes>}
+        </span>
       </div>
-
       {/*Social icons */}
-
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between  items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700">
