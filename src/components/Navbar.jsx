@@ -65,7 +65,7 @@ export function Navbar() {
           </li>
 
           {/* Offline mode warning for desktop */}
-          {!offline && (
+          {offline && (
             <li className="flex border-2  text-white items-center  rounded-md ml-4">
               Offline mode!
               <span className="">
@@ -132,7 +132,7 @@ export function Navbar() {
         </ul>
       </div>
       {/* Offline mode warning for mobile */}
-      {!offline && (
+      {offline && (
         <span className="md:hidden flex border-2 text-white items-center p-2 text-center rounded-md mx-auto text-lg  ">
           Offline mode!
           <span className="">
