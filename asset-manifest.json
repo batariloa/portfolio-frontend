@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a280656.css",
-    "main.js": "/static/js/main.8e5834a7.js",
-    "static/js/787.550c3284.chunk.js": "/static/js/787.550c3284.chunk.js",
+    "main.css": "/static/css/main.6aa949bb.css",
+    "main.js": "/static/js/main.7ac53e1f.js",
+    "static/js/988.c7ffb41f.chunk.js": "/static/js/988.c7ffb41f.chunk.js",
     "static/media/postgres.png": "/static/media/postgres.1c6ead72c4d2e01f3cb2.png",
+    "service-worker.js": "/service-worker.js",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/kotlin.png": "/static/media/kotlin.88d171b542d91e97a10c.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -15,12 +16,12 @@
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/docker-compose.png": "/static/media/docker-compose.5d30e32931d8a4f38e55.png",
     "index.html": "/index.html",
-    "main.1a280656.css.map": "/static/css/main.1a280656.css.map",
-    "main.8e5834a7.js.map": "/static/js/main.8e5834a7.js.map",
-    "787.550c3284.chunk.js.map": "/static/js/787.550c3284.chunk.js.map"
+    "main.6aa949bb.css.map": "/static/css/main.6aa949bb.css.map",
+    "main.7ac53e1f.js.map": "/static/js/main.7ac53e1f.js.map",
+    "988.c7ffb41f.chunk.js.map": "/static/js/988.c7ffb41f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a280656.css",
-    "static/js/main.8e5834a7.js"
+    "static/css/main.6aa949bb.css",
+    "static/js/main.7ac53e1f.js"
   ]
 }
