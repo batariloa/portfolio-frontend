@@ -65,11 +65,11 @@ export function Navbar() {
           </li>
 
           {/* Offline mode warning for desktop */}
-          {offline && (
-            <li className="flex border-2 bg-red-300 text-white items-center  rounded-sm ml-4">
+          {!offline && (
+            <li className="flex border-2  text-white items-center  rounded-md ml-4">
               Offline mode!
               <span className="">
-                <BsExclamationTriangleFill className="ml-2  text-red-500" />
+                <BsExclamationTriangleFill className="ml-2 " />
               </span>
             </li>
           )}
@@ -132,11 +132,11 @@ export function Navbar() {
         </ul>
       </div>
       {/* Offline mode warning for mobile */}
-      {offline && (
-        <span className="md:hidden flex border-2 bg-accent-color-1 text-white items-center p-1 text-center rounded-sm mx-auto ">
+      {!offline && (
+        <span className="md:hidden flex border-2 text-white items-center p-2 text-center rounded-md mx-auto text-lg  ">
           Offline mode!
           <span className="">
-            <BsExclamationTriangleFill className="ml-2  text-red-400" />
+            <BsExclamationTriangleFill className="ml-2  " />
           </span>
         </span>
       )}
