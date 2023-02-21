@@ -4,7 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { BsEyeFill } from "react-icons/bs";
 import { nanoid } from "nanoid";
 export const Work = () => {
-  const { repositories, loading, error } = useGithubRepositories("batariloa");
+  const { repositories, loading, error, cached } =
+    useGithubRepositories("batariloa");
 
   return (
     <div
@@ -37,9 +38,9 @@ export const Work = () => {
           </div>
         </div>
       )}
-      {/* If not loading show repos */}
 
-      {!loading && error === null && (
+      {/* If data received OR offline show repos */}
+      {((!loading && error === null) || cached) && (
         <div className="component-container ">
           <div className="">
             <p className="component-title">Work</p>
@@ -92,6 +93,7 @@ export const Work = () => {
         </div>
       )}
 
+      {/*if error is not null, display it*/}
       {error !== null && (
         <div className="component-container">
           <p className="text-center">
