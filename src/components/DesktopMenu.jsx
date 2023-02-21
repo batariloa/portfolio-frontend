@@ -4,8 +4,8 @@ import { BsExclamationTriangleFill } from "react-icons/bs";
 
 export const DesktopMenu = ({ offline }) => {
   return (
-    <div className="hidden md:flex text-xl">
-      <ul className="hidden md:flex ">
+    <div>
+      <ul className="hidden md:flex  text-xl">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
