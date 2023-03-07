@@ -36,7 +36,8 @@
     }
 
     .skill-container{
-        @apply shadow-md flex flex-col pt-1 shadow-[#040c16] hover:scale-110  sm:h-[10rem] h-[8rem] 
+        @apply shadow-md flex flex-col pt-1 shadow-[#040c16] hover:scale-110  sm:h-[10rem] h-[8rem]  
+   
     }
 
     .screen-container{

@@ -11,7 +11,7 @@
     filter: blur(0);
     transform: translateX(0);
   }
-  
+
   .skill-container:nth-child(2){
     transition-delay: 200ms;
 
@@ -29,7 +29,7 @@
 
   }
   .skill-container:nth-child(6){
-    transition-delay:600ms;
+    transition-delay: 600ms;
 
   }
   .skill-container:nth-child(7){
@@ -37,6 +37,10 @@
 
   }
   .skill-container:nth-child(8){
-    transition-delay:800ms;
+    transition-delay:  800ms;
 
+  }/* Add this block of code to reset the transition delay on hover */
+.skill-container:hover {
+    transition-delay: 0s;
+    transition-duration: 300ms;
   }
