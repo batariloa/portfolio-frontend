@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect } from "react";
 
 export const useGithubRepositories = (username) => {
   const [repositories, setRepositories] = useState([]);
