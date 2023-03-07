@@ -12,16 +12,13 @@ import "./css/skills.css";
 
 const Skills = () => {
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("scroll-show");
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("scroll-show");
+        }
+      });
+    }, {});
     const hiddenElements = document.querySelectorAll(".scroll-hide");
 
     hiddenElements.forEach((el) => observer.observe(el));
