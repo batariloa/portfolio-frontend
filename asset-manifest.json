@@ -1,27 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a24a23e.css",
-    "main.js": "/static/js/main.5ceb82a1.js",
+    "main.css": "/static/css/main.8f18fe87.css",
+    "main.js": "/static/js/main.8fe3cbca.js",
     "static/js/988.c7ffb41f.chunk.js": "/static/js/988.c7ffb41f.chunk.js",
     "static/media/postgres.png": "/static/media/postgres.1c6ead72c4d2e01f3cb2.png",
     "service-worker.js": "/service-worker.js",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/kotlin.png": "/static/media/kotlin.88d171b542d91e97a10c.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/node-express.png": "/static/media/node-express.cca64e0f360897258ecb.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/spring.png": "/static/media/spring.953ee24309fa38748981.png",
-    "static/media/spring_webflux_logo.png": "/static/media/spring_webflux_logo.982ec8bcc33dbf23d016.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/docker-compose.png": "/static/media/docker-compose.5d30e32931d8a4f38e55.png",
     "index.html": "/index.html",
-    "main.5a24a23e.css.map": "/static/css/main.5a24a23e.css.map",
-    "main.5ceb82a1.js.map": "/static/js/main.5ceb82a1.js.map",
+    "main.8f18fe87.css.map": "/static/css/main.8f18fe87.css.map",
+    "main.8fe3cbca.js.map": "/static/js/main.8fe3cbca.js.map",
     "988.c7ffb41f.chunk.js.map": "/static/js/988.c7ffb41f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a24a23e.css",
-    "static/js/main.5ceb82a1.js"
+    "static/css/main.8f18fe87.css",
+    "static/js/main.8fe3cbca.js"
   ]
 }
