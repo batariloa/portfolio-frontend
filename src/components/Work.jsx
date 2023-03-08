@@ -44,7 +44,7 @@ export const Work = () => {
         <div className="component-container ">
           <div className="">
             <p className="component-title">Work</p>
-            <p className="py-6">Check out some of my recent work.</p>
+            <p className="py-6">Check out some of my recent work</p>
 
             <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8 ">
               {repositories &&
@@ -64,7 +64,7 @@ export const Work = () => {
                       </div>
                     </div>
 
-                    <div className="ml-2 p-5 h-[100px] sm:h-[110px] group-hover:opacity-0 duration-200   ">
+                    <div className="ml-2 px-5 mt-5 h-[100px] sm:h-[110px] group-hover:opacity-0 duration-200   ">
                       <p className="text-sm sm:text-base white max-h-full overflow-hidden ">
                         {repo.description
                           ? repo.description
