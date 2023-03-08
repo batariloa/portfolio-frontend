@@ -44,7 +44,7 @@ export const Work = () => {
         <div className="component-container ">
           <div className="">
             <p className="component-title">Work</p>
-            <p className="py-6">Check out some of my recent work</p>
+            <p className="py-6">Check out some of my recent work.</p>
 
             <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8 ">
               {repositories &&
