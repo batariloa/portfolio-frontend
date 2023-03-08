@@ -21,13 +21,12 @@ const About = () => {
           {/*This is row 2 col 2 */}
           <div>
             <p className="my-3">
-              As a full-stack developer, I am committed to delivering practical
-              and efficient web solutions. I take pride in my work and strive to
-              deliver high-quality solutions with attention to detail. I enjoy
-              exploring new programming languages and frameworks to keep myself
-              updated with the latest developments in the industry. This enables
-              me to provide the most effective solutions for each unique
-              project.
+              I am an enthusiastic full-stack developer with a strong interest
+              in backend technologies. I am a fourth year software engineering
+              student in Belgrade, Serbia. I enjoy exploring new programming
+              languages and frameworks to keep myself updated with the latest
+              developments in the industry. This enables me to provide the most
+              effective solutions for each unique project.
             </p>
             <p className="my-3">
               My love for programming began early on, and I have since dedicated
